@@ -57,21 +57,7 @@
     padding: 0 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-  }
-
-  .nav-logo {
-    font-family: var(--serif);
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--navy);
-    letter-spacing: 0.5px;
-    cursor: pointer;
-  }
-
-  .nav-logo span {
-    color: var(--accent);
-    font-style: normal;
+    justify-content: flex-end;
   }
 
   .nav-links {
@@ -941,7 +927,6 @@
 <!-- ============ FIXED NAV ============ -->
 <nav class="nav" id="nav">
   <div class="nav-inner">
-    <span class="nav-logo" onclick="showPage('home')"><span></span></span>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
